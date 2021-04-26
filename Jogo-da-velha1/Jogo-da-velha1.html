@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--ajustas a tamanho da tela do dispositivo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--compatibilidade com versões anteriores do internet explorer-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Jogo-Da-Velha</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>    
+    <div id="mostrador">
+        <h1>Jogo-Da-Velha</h1>
+        <p>Vez do jogador </p>
+        <img src="" border="0" height="20">
+    </div>
+
+    <div class="tabuleiro">
+        <div id="a1" class="espaco" jogada=""></div>
+        <div id="a2" class="espaco" jogada=""></div>
+        <div id="a3" class="espaco" jogada=""></div>
+
+        <div id="b1" class="espaco" jogada=""></div>
+        <div id="b2" class="espaco" jogada=""></div>
+        <div id="b3" class="espaco" jogada=""></div>
+
+        <div id="c1" class="espaco" jogada=""></div>
+        <div id="c2" class="espaco" jogada=""></div>
+        <div id="c3" class="espaco" jogada=""></div>
+    </div>
+    <br>
+
+    <button onclick="window.location.reload()">Reiniciar</button>
+
+<script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>
